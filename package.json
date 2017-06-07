@@ -1,0 +1,48 @@
+{
+  "name": "tsawer-cropper",
+  "version": "0.0.0",
+  "description": "Tsawer image uploading service",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikhemissi/tsawer-cropper.git"
+  },
+  "keywords": [
+    "tsawer",
+    "images",
+    "cropper",
+    "optimization"
+  ],
+  "author": "Iheb Khemissi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikhemissi/tsawer-cropper/issues"
+  },
+  "homepage": "https://github.com/ikhemissi/tsawer-cropper#readme",
+  "dependencies": {
+    "compression": "^1.6.2",
+    "config": "^1.26.1",
+    "express": "^4.15.3",
+    "lru-cache": "^4.0.2",
+    "ms": "^2.0.0",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4",
+    "sharp": "^0.18.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.3.0",
+    "rb-conventional-changelog": "^1.1.9"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/rb-conventional-changelog"
+    }
+  }
+}
